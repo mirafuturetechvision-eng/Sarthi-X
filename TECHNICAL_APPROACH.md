@@ -1,6 +1,6 @@
-# Technical Approach: LibraryBooks React Portal
+# Technical Approach: Sarthi-X Student Portal
 
-This document outlines the architectural and design decisions made for the **LibraryBooks** Virtual Library & Student Portal. The project is built using **React** and **Vite**, focusing on a premium, cohesive "Book Theme" aesthetic.
+This document outlines the architectural and design decisions made for **Sarthi-X**, a Student Guidance & Solutions Portal. The project is built using **React** and **Vite**, focusing on a premium, cohesive academic aesthetic.
 
 ## 1. Component-Based Architecture
 The application follows a strictly modular, component-based architecture. This ensures that every UI element is encapsulated and manageable.

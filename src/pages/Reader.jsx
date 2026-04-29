@@ -1,13 +1,21 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Reader = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const user = localStorage.getItem('sarthi_user');
+    if (!user) {
+      navigate('/auth?mode=login');
+    }
+  }, [navigate]);
   return (
     <div className="reader-page fade-in" style={{ background: '#EFEBE0', minHeight: '100vh', padding: '4rem 0' }}>
       <div className="container">
         {/* Reader Header */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
-          <Link to="/" style={{ color: 'var(--primary)', fontWeight: '600' }}>← Return to Library</Link>
+          <Link to="/" style={{ color: 'var(--primary)', fontWeight: '600' }}>← Return to Portal</Link>
           <div className="serif" style={{ fontSize: '1.2rem', color: 'var(--primary)' }}>Meditations — Marcus Aurelius</div>
           <div style={{ display: 'flex', gap: '1rem' }}>
             <button style={{ background: '#fff', padding: '0.5rem 1rem', borderRadius: '4px', border: '1px solid #D7CFC0' }}>A-</button>

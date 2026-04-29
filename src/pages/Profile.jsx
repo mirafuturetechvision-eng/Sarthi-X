@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Profile.css';
 
 const Profile = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const user = localStorage.getItem('sarthi_user');
+    if (!user) {
+      navigate('/auth?mode=login');
+    }
+  }, [navigate]);
   const personalInfo = [
     { label: 'Full Name', value: 'Jane Doe' },
     { label: 'Date of Birth', value: 'May 12, 2002' },
     { label: 'Gender', value: 'Female' },
     { label: 'Contact', value: '+1 (555) 123-4567' },
-    { label: 'Email', value: 'jane.doe@library.com' },
+    { label: 'Email', value: 'jane.doe@sarthi-x.com' },
     { label: 'Address', value: '123 Bibliophile Lane, Booktown, BK 56789' }
   ];
 
@@ -31,7 +40,7 @@ const Profile = () => {
           <div className="avatar-large">JD</div>
           <div className="user-title-box">
             <h2 className="serif">Jane Doe</h2>
-            <p className="subtitle">Graduate Student | Library ID: #88291</p>
+            <p className="subtitle">Graduate Student | Sarthi-X ID: #88291</p>
           </div>
         </div>
         <button className="btn-edit-profile">
@@ -79,7 +88,7 @@ const Profile = () => {
           {/* NEW: Trends & Analytics Section */}
           <section className="profile-section-card glass-card">
             <div className="section-header">
-              <h3 className="serif"><span className="decoration-icon">📊</span> Market & Academic Analytics</h3>
+              <h3 className="serif"><span className="decoration-icon">📊</span> Learning Progress & Skill Mastery</h3>
               <div className="period-selector">
                 <span className="period active">Monthly</span>
                 <span className="period">Yearly</span>
@@ -88,7 +97,7 @@ const Profile = () => {
             <div className="analytics-grid">
               <div className="analytics-item">
                 <div className="analytics-info">
-                  <span className="label">Course Completion</span>
+                  <span className="label">Path Completion</span>
                   <span className="value">78%</span>
                 </div>
                 <div className="analytics-bar-bg">
@@ -99,24 +108,24 @@ const Profile = () => {
               
               <div className="analytics-item">
                 <div className="analytics-info">
-                  <span className="label">Market Relevance Score</span>
+                   <span className="label">Problem Solving Score</span>
                   <span className="value high">92/100</span>
                 </div>
                 <div className="analytics-bar-bg">
                   <div className="analytics-bar-fill" style={{ width: '92%', background: 'linear-gradient(90deg, var(--accent) 0%, #4CAF50 100%)' }}></div>
                 </div>
-                <p className="analytics-tip">Top 5% among literature students this month.</p>
+                <p className="analytics-tip">Excellent analytical skills! You've solved 15+ complex problems this week.</p>
               </div>
 
               <div className="analytics-item">
                 <div className="analytics-info">
-                  <span className="label">Library Contribution</span>
-                  <span className="value">15 Papers</span>
+                  <span className="label">Skills Mastered</span>
+                  <span className="value">15 Skills</span>
                 </div>
                 <div className="analytics-bar-bg">
                   <div className="analytics-bar-fill" style={{ width: '45%', background: 'linear-gradient(90deg, var(--secondary) 0%, var(--primary) 100%)' }}></div>
                 </div>
-                <p className="analytics-tip">Your last paper received 12 citations. Keep it up!</p>
+                <p className="analytics-tip">You've unlocked 3 new skills this week. Keep learning!</p>
               </div>
             </div>
           </section>

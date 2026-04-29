@@ -20,7 +20,7 @@ export const login = async (email, password) => {
       id: 1,
       name: 'Jane Doe',
       email: email,
-      libraryId: '#88291'
+      sarthiId: '#88291'
     },
     token: 'mock-jwt-token'
   };

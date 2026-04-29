@@ -1,13 +1,13 @@
-# 📚 LibraryBooks | Virtual Library & Student Portal
+# 🎓 Sarthi-X | Student Guidance & Solutions Portal
 
-Welcome to **LibraryBooks**, a premium, immersive digital library platform designed for readers, students, and bibliophiles. This project features a unique "Book-Themed" interface that blends classic academic aesthetics with modern web technology.
+Welcome to **Sarthi-X**, a premium student guidance platform designed to provide comprehensive solutions and study materials. Sarthi-X blends academic excellence with modern web technology to help students navigate their educational journey.
 
 ## ✨ Key Features
 
-- **📖 Open-Book Interface**: Immersive Login and Registration pages designed as a physical open book.
-- **🏠 Clean Product Homepage**: A welcoming landing page with clear sections for About, Features, and Call-to-Action.
-- **🎓 Student Dashboard**: A structured profile overview featuring Personal Info, Academic History, and Document Management.
-- **🎨 Premium Aesthetic**: A warm, cream-and-brown palette using custom CSS variables and professional typography.
+- **📖 Study Materials**: Access to premium "Study Books" and "Digital Copies" for efficient learning.
+- **🏠 Student-Centric Homepage**: A clear roadmap of services including About, Features, and Student Solutions.
+- **🎓 Guidance Dashboard**: A structured profile overview featuring Progress Tracking and Problem-Solving scores.
+- **🎨 Premium Aesthetic**: A warm, academic palette using custom CSS variables and professional typography.
 - **📱 Fully Responsive**: Seamless experience across mobile, tablet, and desktop devices.
 
 ## 🛠️ Tech Stack

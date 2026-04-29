@@ -10,12 +10,12 @@ const Contact = () => {
           <div style={{ background: 'var(--primary)', color: 'var(--text-light)', padding: '3rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
             <h2 className="serif" style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>Get in Touch</h2>
             <p style={{ opacity: 0.8, marginBottom: '2.5rem', lineHeight: '1.8' }}>
-              Whether you're looking for a rare manuscript, need help with your student portal, or simply want to talk books—our librarians are here to help.
+              Our **Candidate Support Team** is here to help you with portal access, study materials, and academic guidance. Reach out to us for any assistance in your learning journey.
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                 <span style={{ fontSize: '1.5rem' }}>📍</span>
-                <span>123 Bibliophile Lane, Booktown</span>
+                <span>789 Academic Square, Knowledge City</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                 <span style={{ fontSize: '1.5rem' }}>📞</span>
@@ -23,7 +23,7 @@ const Contact = () => {
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                 <span style={{ fontSize: '1.5rem' }}>✉️</span>
-                <span>librarian@librarybooks.com</span>
+                <span>support@sarthi-x.com</span>
               </div>
             </div>
             <div style={{ marginTop: '4rem', fontSize: '2rem', opacity: 0.3 }}>❧ ❦ ❧</div>

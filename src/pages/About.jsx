@@ -35,40 +35,44 @@ const About = () => {
             </div>
             <div className="mission-text">
               <h2 className="serif" style={{ fontSize: '2.5rem', color: 'var(--primary)', marginBottom: '1.5rem' }}>
-                A Sanctuary for Discovery
+                Guiding Your Academic Journey
               </h2>
               <p style={{ marginBottom: '1.5rem', fontSize: '1.1rem' }}>
-                LibraryBooks was founded with a single purpose: to democratize access to the world's greatest literature 
-                while providing a digital space that feels as warm and welcoming as a physical library.
+                Sarthi-X was founded with a single purpose: to build the world's most **learnable platform**. 
+                We guide students through every lesson and provide solutions that foster real intellectual growth.
               </p>
               <p style={{ fontSize: '1.1rem' }}>
-                We believe that reading is not just a hobby, but a journey of self-discovery. Our platform is designed 
-                to help students and lifelong learners curate their own personal archives, track their intellectual 
-                growth, and find inspiration in the written word.
+                We believe that every student deserves a mentor and a guide. Our platform is designed 
+                to help students access premium study materials (Books and Copies), track their progress, 
+                and find solutions that make learning efficient and enjoyable.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Values Grid */}
-      <section className="about-values" style={{ padding: '4rem 0 8rem 0' }}>
+      {/* Candidate Journey Section */}
+      <section className="about-values" style={{ padding: '4rem 0 8rem 0', backgroundColor: '#FDF9F1' }}>
         <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <h2 className="serif" style={{ fontSize: '2.5rem', color: 'var(--primary)' }}>The Candidate Journey</h2>
+            <p style={{ color: '#8D6E63', fontSize: '1.2rem' }}>How Sarthi-X empowers your path to mastery</p>
+          </div>
           <div className="values-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '2rem' }}>
             <div style={{ textAlign: 'center', padding: '2rem' }}>
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>📜</div>
-              <h3 className="serif">Curation</h3>
-              <p>We hand-select our collections to ensure only the highest quality of scholarly and literary works.</p>
+              <div style={{ fontSize: '3.5rem', marginBottom: '1.5rem' }}>🔐</div>
+              <h3 className="serif" style={{ fontSize: '1.8rem', color: 'var(--primary)' }}>Student Login</h3>
+              <p style={{ fontSize: '1.05rem', color: '#5D4037' }}>Securely access your personalized learning environment with your unique Sarthi-X ID.</p>
             </div>
             <div style={{ textAlign: 'center', padding: '2rem' }}>
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🕯️</div>
-              <h3 className="serif">Atmosphere</h3>
-              <p>Our UI is engineered to provide a calm, focus-oriented environment that encourages deep reading.</p>
+              <div style={{ fontSize: '3.5rem', marginBottom: '1.5rem' }}>📊</div>
+              <h3 className="serif" style={{ fontSize: '1.8rem', color: 'var(--primary)' }}>Dashboard Access</h3>
+              <p style={{ fontSize: '1.05rem', color: '#5D4037' }}>Instantly unlock your dashboard to track skill mastery, view progress, and manage your studies.</p>
             </div>
             <div style={{ textAlign: 'center', padding: '2rem' }}>
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🤝</div>
-              <h3 className="serif">Community</h3>
-              <p>We connect like-minded bibliophiles to share insights and build a global network of knowledge.</p>
+              <div style={{ fontSize: '3.5rem', marginBottom: '1.5rem' }}>🚀</div>
+              <h3 className="serif" style={{ fontSize: '1.8rem', color: 'var(--primary)' }}>Mastery & Growth</h3>
+              <p style={{ fontSize: '1.05rem', color: '#5D4037' }}>Use interactive solutions and learning paths to accelerate your academic and professional growth.</p>
             </div>
           </div>
         </div>

@@ -177,6 +177,16 @@
   color: #FDF9F1;
 }
 
+.edu-selector.single-select .chip {
+  flex: 1;
+  justify-content: center;
+  min-width: 120px;
+}
+
+.edu-selector.single-select .chip.active {
+  box-shadow: 0 4px 12px rgba(93, 64, 55, 0.2);
+}
+
 .edu-fields-container {
   display: flex;
   flex-direction: column;

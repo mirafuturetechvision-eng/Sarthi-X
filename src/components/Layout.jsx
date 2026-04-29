@@ -12,22 +12,22 @@ const Layout = ({ children }) => {
       <footer className="app-footer">
         <div className="container footer-content">
           <div className="footer-brand">
-            <h2 className="serif">LibraryBooks</h2>
-            <p>Your sanctuary for literary discovery and academic excellence.</p>
+            <h2 className="serif">Sarthi-X</h2>
+            <p>Guiding students and providing solutions for academic success.</p>
           </div>
           <div className="footer-links">
             <div className="footer-column">
               <h4>Platform</h4>
               <ul>
                 <li><Link to="/about">Our Story</Link></li>
-                <li><Link to="/collections">Collections</Link></li>
+                <li><Link to="/collections">Study Materials</Link></li>
                 <li><Link to="/profile">Dashboard</Link></li>
               </ul>
             </div>
             <div className="footer-column">
               <h4>Connect</h4>
               <ul>
-                <li><Link to="/contact">Contact Librarian</Link></li>
+                <li><Link to="/contact">Contact Support</Link></li>
                 <li><a href="#">Help Center</a></li>
                 <li><a href="#">Guidelines</a></li>
               </ul>
@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
         </div>
         <div className="footer-bottom">
           <div className="container bottom-flex">
-            <p className="serif">&copy; 2026 Virtual Library System. All rights reserved.</p>
+            <p className="serif">&copy; 2026 Sarthi-X Student Portal. All rights reserved.</p>
             <div className="footer-decor">❧ ❦ ❧</div>
           </div>
         </div>

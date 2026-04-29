@@ -31,7 +31,7 @@ const LoadingSpinner = () => {
         📖
       </div>
       <div className="serif" style={{ fontSize: '1.5rem', color: 'var(--primary)', letterSpacing: '2px' }}>
-        Opening the Library...
+        Entering Sarthi-X...
       </div>
       
       <style>{`
